@@ -1,55 +1,39 @@
 <!DOCTYPE html>
+<!-- html doc type html5 -->
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <!-- this specifies the character encoding -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- helps in responsive website -->
+    <meta name="description" content="this is my resume">
+    <!-- description seen in search engine -->
+    <meta name="robots" content="noindex,nofollow">
+    <!-- SITE UNSEEN ON BROWSER IF USED KEYWORDS META -->
+     <meta name="keywords" content="resume, Engineering, Graphic">
+     <!-- keywords for SEO -->
+     <meta name="theme-color" content="#fff">
+     <!-- set theme color for website -->
+     <meta name="title" content="resume">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
     <title>Ayush Sinha - Resume</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Ayush Sinha</h1>
-        <p>Information Technology Student | Front-End Developer | UI Designer</p>
+        <center><h1>Ayush Sinha</h1>
+        <p>Information Technology Student | Front-End Developer | UI Designer</p></center>
     </header>
 
-    <section id="contact">
-        <h2>Contact Information</h2>
-        <ul>
-            <li>Email: <a href="mailto:aysinha56@gmail.com">aysinha56@gmail.com</a></li>
-            <li>Location: Mumbai, India</li>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/ayush-sinha-0977a1296/">LinkedIn Profile</a></li>
-            <li>GitHub: <a href="https://github.com/Ayush56sin">GitHub Profile</a></li>
-        </ul>
-    </section>
-
-    <section id="about">
+<div class="info">
+<div class="first-section">
+    <section class="about "id="about">
         <h2>About Me</h2>
-        <p>I am a passionate Information Technology student at Thakur College of Engineering and Technology, Mumbai. I have a strong interest in front-end development, UI design, and I am always eager to learn new technologies.</p>
+        <p><em>I am a passionate Information Technology student at Thakur College of Engineering and Technology, Mumbai. I have a strong interest in front-end development, UI design, and I am always eager to learn new technologies.</em></p>
     </section>
-
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>
-                <strong>Bachelor of Technology in Information Technology</strong><br>
-                Thakur College of Engineering and Technology, Mumbai<br>
-                August 2023 - Present
-            </li>
-        </ul>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <ul>
-            <li>
-                <strong>Graphic Design Intern</strong><br>
-                BunchUp, kandivali<br>
-                <p>Worked on various design projects, including logos, brochures, and social media posts. Developed skills in Adobe Photoshop, Illustrator, and Figma.</p>
-            </li>
-        </ul>
-    </section>
-
-    <section id="skills">
+    <section class="skills" id="skills">
         <h2>Skills</h2>
         <ul>
             <li>HTML, CSS, JavaScript, React</li>
@@ -57,9 +41,42 @@
             <li>UI/UX Design</li>
         </ul>
     </section>
+</div>
+<div>
+    <section class="education" id="education">
+        <h2>Education</h2>
+        <dl>
+            <dt>
+                <strong>Bachelor of Technology in Information Technology</strong></dt>
+                <dd>Thakur College of Engineering and Technology, Mumbai<br>
+                August 2023 - Present
+            </dd>
+        </dl>
+    </section>
 
+    <section class="experience" id="experience">
+        <h2>Experience</h2>
+        <dl>
+            <dt>
+                <strong>Graphic Design Intern</strong></dt>
+                <dd>BunchUp, kandivali <br>
+                Worked on various design projects, including logos, brochures, and social media posts. Developed skills in Adobe Photoshop, Illustrator, and Figma.</dd>
+            </dt>
+        </dl>
+    </section>
+</div>
+</div>
+<!-- <section class= "contact" id="contact">
+    <h2 class="contact_title">Contact Information</h2>
+    <ul class="contact_link">
+        <li><a href="mailto:aysinha56@gmail.com" title="mail me"><img src="gmail.png" height="30px"></a></li>
+        <li><a href="https://www.linkedin.com/in/ayush-sinha-0977a1296/" target="_blank"><img src="linkedin.png" height="30px"></a></li>
+        <li><a href="table.html"><img src="social-media.png" height="30px"></a></li>
+
+    </ul>
+</section> -->
     <footer>
-        <p>&copy; 2024 Ayush Sinha. All rights reserved.</p>
+        <p> &copy; 2024 Ayush Sinha. All rights reserved.</p>
     </footer>
 </body>
 </html>
